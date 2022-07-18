@@ -1,0 +1,235 @@
+/*4*/
+body{
+    background-color: #F0F2F5;
+    /*overflow-y: hidden;*/
+    overflow-x: hidden;
+}
+div#page_upside
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    width:100%;
+    background-color: #F0F2F5;
+    position:absolute;
+}           /*8*/
+            div#fb_img img
+            {
+                width:  22%;
+                position: absolute;
+                top: 168px;left:148px;
+                
+            }/*9*/
+            div#text1
+            {   
+                font-size: 28px;
+                width: 40%;
+                position: absolute;
+                top:238px;left:175px;
+            }
+            
+           /*6*/
+            div.loginform form input#username{
+                background:#FFFFFF;
+                border: 1px solid #DDDFE2;
+                border-radius: 10px;
+                position: relative;font-size: 16.5px;
+                margin-bottom:12px;padding: 0px 18px 2px 15px;
+                height: 50px;width: 333px;
+            }/*
+            input[type=text]:focus {
+                border: 3px solid rgb(247, 18, 18);
+              }*/
+            input#username::placeholder,
+            input#password::placeholder
+            {
+                color:#90949C
+            }
+            /*5*/
+            div.loginform form input#password{
+                background:#FFFFFF;
+                border: 1px solid #DDDFE2;
+                border-radius: 10px;
+                position: relative;padding:  13px 18px 13px 15px;
+                margin-bottom: 14px;font-size: 16.5px;
+                height: 25px;width: 333px;
+            }
+            input::selection
+            {
+                color: #0066ff;
+                background: yellow;
+                border: 10px solid;
+                
+              }
+              /*7*/
+            div.loginform form input#login{
+                background:#1877F2;
+                color: #FFFFFF;
+                border: 1px solid #DDDFE2;
+                border-radius: 08px;
+                position: relative;padding: 0px 16px;
+                margin-bottom: 15px;
+                height: 50px;width: 370px;
+                font-size: 20px;
+                font-weight: 700;
+            }
+            div.loginform a#pass_fgot{
+                color:#1877F2;
+                position: absolute;
+                text-decoration: none;
+                left:33.5%;top: 61.5%;
+                font-size: 14px;
+            }
+            div.loginform a#newacc{
+                color:#FFFFFF;
+                position: absolute;
+                text-decoration: none;
+                left:102px;top:280px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 600;font-size: 17px;
+                background-color: #42B72A;text-align: center;
+                padding: 14px 15.5px;border-radius: 5px;
+            }
+            div.loginform #hr1{
+                position: relative;
+                width:365px;top: 13px;
+                margin-top: 25px;
+                background-color: #d4d3d3;
+                border-top: #DADDE1;
+            }/*1*/
+            div.loginform{
+                background-color: #FFFFFF;
+                border: whitesmoke;
+                box-shadow:
+                0.1px 5px  15px 5px rgba(161, 166, 170, 0.5);
+
+                display: block;
+                width: 360px;
+                height: 320px;
+                border-radius: 9px;
+                padding: 17px 22px 15px 16px;
+                position: absolute;
+                top:120px;right: 200px;
+
+            }/*2*/
+            div a#commercial{
+                color: #000000;
+                font-weight: 700;
+                text-decoration: none;/*
+                word-spacing: 0.5px;
+                letter-spacing: 0.1px;*/
+            }/*3*/
+            div #text2{
+                position: relative;
+                margin-top: 20px;
+                bottom: -120px;right: -34px;
+                font-size: 14px;
+                word-spacing: 0.5px;
+                letter-spacing: 0.1px;/*
+                font-stretch: ultra-condensed;*/
+                font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            div#page_downside{
+                height: 27%;
+                width: 100%;
+                top: 720px;left:0px;
+                position: absolute;
+                background-color:#FFFFFF;
+               
+            }
+            /*10*/
+            ul.languages {
+                list-style-type: none;
+                overflow: hidden;
+                position: absolute;
+                top: 28px;left:-365px;
+                background-color: #FFFFFF;
+                margin: 0px;padding-top: 2px; 
+                margin-top: 1.2px;
+                margin-bottom: 5px;
+                /*border: 1px solid black;*/
+            }
+            li{
+                float: left;
+                
+            }
+            li a{
+                text-decoration: none;
+                display: block;
+                padding: 0px 5px 0px 5px;
+                color: #8A8D91;
+                text-align: center;
+                letter-spacing: 0.10px;
+                font-size: 12px;
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+            ul li a.active{
+                text-indent:500px;color:#737373;
+            }
+            div#page_downside ul.languages p#more a{
+                
+                color: #656C7B;
+                position: relative;top: 100px;
+                width: 150px;height: 10px;
+            }/*12*/
+            .nc{position: relative;}
+            .urd{top:1px;}
+            .tam{top:-2px;}
+            .tel{top: -1px;}
+            .ben{top: 0px;}
+            .more_button{
+                top:-2px;
+            }
+            hr#hr2{
+                position: relative;
+                width:980px;top: 30px;
+                left: -2px;
+                margin-top: 26px;
+                background-color: #d4d3d3;
+                border-top: #DDDFE2;
+            }/*11*/
+            ul.fb_services {
+                list-style-type: none;
+                overflow: hidden;
+                position: absolute;
+                top: 785px;left:172px;
+                background-color: #FFFFFF;
+                margin: 0;padding: 0; 
+                /*border: 1px solid black;*/
+            }
+            /*13*/
+            ul.fb_services li a{
+                text-decoration: none;
+                display: block;
+                padding: 4px 10px;
+                color: #8A8D91;
+                text-align: center;
+                letter-spacing: 0.10px;
+                font-size: 12px;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0px;
+                
+            }
+            ul.fb_services div.grp2{
+                position: relative;
+                top: -3px;
+            }/*15*/
+            img.adimg{
+                position: absolute;
+                top:9px;right: 50px;
+                float: right;
+            }
+            /*16*/
+            .help{
+                position: relative;
+                top: -5px;
+                clear:left;
+            }
+            /*14*/
+            span.copy_right{
+                position: relative;
+                top:855px;left:175px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 11px;
+                color: #737373;
+            }
